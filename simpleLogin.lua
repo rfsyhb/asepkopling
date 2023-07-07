@@ -1,3 +1,4 @@
+-- Biasanya dipakai buat check socks
 proxyList = {
     "",
     -- tambah sesuka ente, jangan lupa #proxyList = #names
