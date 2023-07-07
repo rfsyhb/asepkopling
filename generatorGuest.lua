@@ -87,11 +87,8 @@ function guest()
                 save('{rid = "'..getRid()..'", mac = "'..getMac()..'"}')
                 sleep(1000)
                 -- melakukan skip tutor
-                load(request("GET","https://rentry.org/tutorpunyaasep/raw"))()
+                load(request("GET","https://raw.githubusercontent.com/rfsyhb/growtufiyahgem/main/skipTutorial.lua"))()
                 sleep(1000)
-                while string.sub(getBot().world, 1, 10) ~= "TUTORIAL_1" do
-                    load(request("GET","https://rentry.org/tutorpunyaasep/raw"))()
-                end
                 save('tutor? don')
                 -- memastikan proxy
                 if (i - 1) % kelipatanlogin == 0 then
@@ -187,7 +184,7 @@ function generator()
             save('{rid = "'..getRid()..'", mac = "'..getMac()..'"}')
             sleep(1000)
             -- melakukan skip tutor
-            load(request("GET","https://rentry.org/tutorpunyaasep/raw"))()
+            load(request("GET","https://raw.githubusercontent.com/rfsyhb/growtufiyahgem/main/skipTutorial.lua"))()
             save('tutor? don')
             -- jika sudah tutor maka remove lagi
             sleep(1000)
