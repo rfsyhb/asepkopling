@@ -1,3 +1,4 @@
+-- Created by limau
 -- Melakukan proses skip tutorial untuk akun yg baru dibuat
 function mehantam()
     for i = 4, 1, -1 do
