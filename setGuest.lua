@@ -1,4 +1,4 @@
--- by limau
+-- Created by limau
 -- upgrade dari setEach.lua dan nyambung sama generatorGuest.lua
 -- berapa banyak bot yang ada di app / ingin di-set
 namapatokan = "asheps" -- nama patokan bot urut
