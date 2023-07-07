@@ -1,3 +1,4 @@
+-- Melakukan proses skip tutorial untuk akun yg baru dibuat
 function mehantam()
     for i = 4, 1, -1 do
         punch(1, 0)
