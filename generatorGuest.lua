@@ -1,4 +1,4 @@
--- created by limau
+-- Created by limau
 -- login bot untuk skip tutor, kemudian mengganti ke bot berikutnya
 infotambahan = "14.25"
 generatorenable = true -- generator guest (true) / login (false)
