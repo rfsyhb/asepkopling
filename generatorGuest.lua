@@ -64,7 +64,9 @@ function guest()
         -- melakukan login hingga menemukan guest error
         addBot(guestname, true, proxy)
         i = i + 1
-        sleep(8000)
+        sleep(1000)
+        setBool("Auto Reconnect", false)
+        sleep(7000)
 
         -- guest error atau ercon
         while getBot(getBot().name).status:lower() ~= "guest error" do
