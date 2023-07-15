@@ -16,7 +16,7 @@ function login()
     local proxyIndex = 1
     local i = 1
     if guest then
-        for i = 1, banyakBot do
+        for i = 1, banyakBot - mulaiBot + 1 do
             table.insert(guestList, patokan .. (mulaiBot + i - 1))
         end
         while i <= #guestList do
